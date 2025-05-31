@@ -1,6 +1,6 @@
-# 💬 تطبيق الدردشة المغربي - Chat App Marocain
+Chat App 
 
-Une application de chat moderne avec design marocain développée avec Flutter utilisant le pattern BLoC pour la gestion d'état.
+Une application de chat moderne  développée avec Flutter utilisant le pattern BLoC pour la gestion d'état.
 
 ## 🎯 Fonctionnalités
 
@@ -42,61 +42,6 @@ lib/
 └── main.dart           # Point d'entrée
 ```
 
-## 🚀 Installation et Lancement
-
-### Prérequis
-- Flutter SDK (version 3.8.1 ou supérieure)
-- Dart SDK
-- Un navigateur web ou un émulateur mobile
-
-### Installation
-```bash
-# Cloner le projet
-git clone <url-du-repo>
-cd app_chat
-
-# Installer les dépendances
-flutter pub get
-
-# Lancer l'application
-flutter run
-```
-
-### Lancement sur le web
-```bash
-flutter run -d chrome --web-port=8080
-```
-
-### Tests
-```bash
-# Lancer tous les tests
-flutter test
-
-# Lancer les tests avec couverture
-flutter test --coverage
-```
-
-## 📱 Captures d'écran
-
-### 🏠 Écran des conversations "الرسائل"
-- **Design marocain** avec header en dégradé vert
-- **Avatars avec gradients** et ombres élégantes
-- **Cartes de conversations** avec bordures arrondies et ombres
-- **Badges de messages non lus** avec dégradé rouge
-- **Noms marocains authentiques** (Aicha Benali, Youssef El Amrani, etc.)
-- **Messages en arabe** avec support RTL
-- **Timestamps formatés** en français
-- **Pull-to-refresh** avec animation
-
-### 💬 Écran de chat détaillé
-- **Header personnalisé** avec avatar et statut "متصل الآن"
-- **Bulles de messages stylisées** avec gradients et ombres
-- **Alignement intelligent** (droite pour moi, gauche pour les autres)
-- **Statuts visuels** des messages avec icônes colorées
-- **Champ de saisie moderne** avec bordures arrondies
-- **Bouton d'envoi** avec dégradé rouge et animation
-- **Scroll automatique** vers les nouveaux messages
-
 ## 🛠️ Technologies Utilisées
 
 - **Flutter** - Framework UI
@@ -130,18 +75,6 @@ class Message {
 }
 ```
 
-## 🎨 Design & UI/UX Marocain
-
-- **🇲🇦 Palette de couleurs marocaine** : Vert (#2E7D32) et Rouge (#D32F2F)
-- **🎨 Gradients élégants** sur les avatars, boutons et headers
-- **💫 Ombres et élévations** pour un effet de profondeur moderne
-- **🔄 Animations fluides** pour les transitions et interactions
-- **📱 Design responsive** qui s'adapte aux différentes tailles d'écran
-- **🎯 Feedback visuel** immédiat pour toutes les interactions
-- **⚡ Gestion des états** de chargement et d'erreur avec style
-- **🌟 Interface moderne** avec bordures arrondies et espacement harmonieux
-- **🔤 Support multilingue** (Français et Arabe) avec RTL
-- **🎪 Cartes flottantes** avec ombres pour les conversations
 
 ## 🔮 Améliorations Futures
 
@@ -164,6 +97,3 @@ Les contributions sont les bienvenues ! N'hésitez pas à :
 4. Pousser vers la branche
 5. Ouvrir une Pull Request
 
-## 📄 Licence
-
-Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
